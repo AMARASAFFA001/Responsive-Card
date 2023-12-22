@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,500&display=swap');
  
 *{
     padding: 0;
@@ -173,4 +173,33 @@ color: #696161;
 
 .data:last-child{
     border-right:none;
+}
+
+
+@media (max-width: 799px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4f4f4;
+    }
+
+
+    .profile-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px;
+        background-color: #ffffff;
+        border-radius: 24px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+        position: relative;
+        transition: all o,3s ease-in-out;
+    }
+
+
+
 }
